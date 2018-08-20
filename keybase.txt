@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/cadox8
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://athonedevs.github.io
+  * I am cadox8 (https://keybase.io/cadox8) on keybase.
+  * I have a public key with fingerprint D30D EB37 976F 5253 79F8  BA2B 6F5F FC62 23A2 D2AC
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f8cc2e69aba0db6de1a4aec24b5622468006ac9aa74a320582be50986516a6110a",
+      "fingerprint": "d30deb37976f525379f8ba2b6f5ffc6223a2d2ac",
+      "host": "keybase.io",
+      "key_id": "6f5ffc6223a2d2ac",
+      "kid": "0101a08d4929513a71c6eda91cbd9267dc0733432ba66253647e63d8e235639c4d5a0a",
+      "uid": "c9ded3ecc9bd2cd697843b1185ec2d19",
+      "username": "cadox8"
+    },
+    "service": {
+      "hostname": "athonedevs.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1534768167,
+  "expire_in": 157680000,
+  "prev": "3e15394d965f098890d1619448a410ea75d73fa4681895e3a83a4978ba5ff533",
+  "seqno": 82,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.77
+Comment: https://keybase.io/crypto
+
+yMN1AnicbVJ7UFRVHF6eFgxKNSqTRXbBwAK678cKJOqMQiTCxAxiup57z1n2Cuzd
+9l5wiUcPg1HBYXINFIdHEhHBgjIk9BgEBqRyRkeGkGAgHRmyoUmdwgkk6l7S//rr
+nN/vfN93vt9jMMjHFOClWJbEsHMjbV5X+uvyTPve6YooxEQFFmDmQiwbrRwoByJV
+s2TLEDNjOEHiVl6SSMQKQAQ4FFmICEADJJG0yLAkSbM8jrNAEgDgaECROMOTImJw
+gWcZggUsQeAAi8Kssj0LOR1O2a7pspDCIRIpTuBYK0My+sXKi4AU9chqlXRVCpCQ
+BJJOtCmqwdDNiUBFMbKi5/TAsmLvf/CPfeMEwHlIC6TAEBTgCIlFEAiEJEKBZDko
+4RxF0RQpApbVDbA0h1gK8oikGJYSJBoyYMV33oqcJEAEKSRJgghJCbICx9OUSBA8
+o/cBEoIBVJHTDnKRgQZQcfFYcRSm5/JlCRltNep49A40m2JHEOWrMVmyZssT/6vK
+4VQ0RVJydIRN0xyq2VDQChwG5TASLY/ELKJsh3o3dUY+cqqyYsfMhI6UNNlQJxiK
+5lieYLkoDLkcshNZZAPBcMagcNz4B+XrkhTSoQINBZax6tPiBRwSLCHQNA9oAkeA
+YyBHWYE+X4IXGEQBngK0XrgI9J4zFIUZ5b1tVzAzT+o+QZauqcpZdqDlORFWPND/
+lq/JK8Dk7+dtrJkp4Mngx8u3tG3NcnTaGcy/rfbqeOLYXOPvnr8fVIx/4Xvt5e2L
+DcFVA4ENztRc361n489G0P3bxkpnQrS1fak/9ntMLbszPabKxoSn18VesgV/cGR2
+9PZ0aOzt8T8W4j7rcjdsGI51/Plm3O6a17DeU8+UVPVc3proEzt0oPrcb+306bL0
+surTUe57kwc3NAZ8v6rmp8iSHOulW/yDexkZg007ZtSpstKectKT6/jhiT7n5+EF
+uf01CSWHimLMr+96zxFz4j6580Ajmr+lRH7o22YqaH6Iajb5JA28390UVGH76uHJ
+Y2G26cqhIxNp7Xdyf44M2dNR738/eWqPa2rTxsT5V08+X3s93ZOSVD1QVj8ZuUh2
+ug/f7U6fTzjac60/Yv4jv09PkUdDn4q+cWa0eGShaVVLfGPLoW+X9m8Mm7gBlte9
+5N+74/zmouAO65bR5U8yl9TChYHv2OakIOGf6LHwQK9hOW1XVWhpXErxsaKQdzt6
+h1yJopjpnt/rKL+6unKueeL4iPflbNfXKZZX2j5udd+9nlW+uWW6brKzfo29PUOr
+bchYn97lrD6+T4mL+/VWt6d7izUtfP3YcOmVNwbTL/a5Iw6q52dWh0R27L/Qm9qs
+BNyk7nzjlzOb07lTSWlq7Z2sKgCpXmv/qr2Y3PZleNEJ72f3hse3+hbNhrhmn6vq
+9La/4L5pSZ67EKguVvxSVvei618jlsXh
+=zoTr
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cadox8
+
+==================================================================
