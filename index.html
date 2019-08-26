@@ -46,6 +46,7 @@
     <!-- Navigation -->
     <nav class="navbar is-dark">
       <div class="navbar-brand">
+        <p class="navbar-item is-hidden-mobile"></p>
         <a class="navbar-item" href="https://athonedevs.github.io/">AthoneDevs</a>
         <div class="navbar-burger burger" data-target="menu">
           <span></span>
@@ -55,14 +56,12 @@
       </div>
 
       <div class="navbar-menu" id="menu">
-        <div class="navbar-start">
-        </div>
 
         <div class="navbar-end">
           <a class="navbar-item is-active" href="#menu">Home</a>
           <a class="navbar-item" href="#work">Work</a>
           <a class="navbar-item" href="#about">About Us</a>
-          <p class="navbar-item"></p>
+          <p class="navbar-item is-hidden-mobile"></p>
           <div class="navbar-item">
             <div class="field is-grouped">
               <p class="control">
@@ -95,7 +94,7 @@
     </nav>
 
    <!-- Web -->
-   <section class="hero is-light">
+   <section class="hero is-link">
        <div class="hero-body">
            <div class="container">
              <img src="img/logo.png" class="center">
@@ -113,13 +112,11 @@
            <div class="columns">
                <div class="column is-1"></div>
                <div class="column is-5">
-                   <p class="centered"><img src="https://vignette.wikia.nocookie.net/epicrapbattlesofhistory/images/4/4f/White_square.jpg/revision/latest?cb=20140413154605" width="114" height="114"></p>
-                   <p class="name centered"><strong>GameOffJam (Provisional Name)</strong></p>
-                   <p class="justify">The idea is very simple: create a game to manage a city (like CitiesSkylines), but without any map.
-Why? Well, I want to focus on the management of the city as such, not on how beautiful it is.</p>
+                   <p class="centered"><img src="img/deud4.png" width="70" height="70"></p>
+                   <p class="name centered"><strong>Deud</strong></p>
+                   <p class="justify">Deud is a RPG and an adventure game based on 80s RPG games. This game is currently being developed.</p>
                   <p class="has-text-centered"><small>Game by Cadox8</small></p>
-                   <br><p class="centered"><a class="button is-danger" target="_blank" href="https://cadox8.itch.io/gameoffjam">Website</a>
-                     <a class="button is-dark" target="_blank" href="https://github.com/cadox8/GameOffJam">Github</a></p>
+                   <br><p class="centered"><a class="button is-danger" target="_blank" href="https://cadox8.github.io/Deud">Website</a>
                </div>
                <div class="column is-5">
                    <p class="centered"><img src="img/krork.png" width="114" height="114"></p>
@@ -143,7 +140,6 @@ Why? Well, I want to focus on the management of the city as such, not on how bea
                    <p class="centered"><img src="img/pa.png" width="114" height="114"></p>
                    <p class="name centered"><strong>ProjectAlpha</strong></p>
                    <p class="justify">Our own old Minecraft Server. It contains all features all servers needs, including a Core, Games, BungeeCord utilities and a Website.</p>
-                   <span class="tag is-danger are-medium center">We're not doing this anymore. This is just to show you all our work.</span>
                    <br><p class="centered"><a class="button is-dark" target="_blank" href="https://github.com/AthoneDevs/PA">Github</a></p>
                </div>
            </div>
@@ -151,44 +147,47 @@ Why? Well, I want to focus on the management of the city as such, not on how bea
    </section>
 
    <br>
-   <section class="section" id="about">
+   <section class="section has-background-dark has-text-white" id="about">
      <div class="container">
-       <h2 class="title centered">About us</h2>
-       <p class="centered">AthoneDevs was created on August 20th, as part of the new era of ProjectAlpha</p><hr>
+       <h2 class="title centered has-text-white">About us</h2>
+       <p class="centered">AthoneDevs was created on August 20th (2018), as part of the new era of ProjectAlpha</p><hr>
        <div class="columns">
            <div class="column is-1"></div>
            <div class="column is-5 centered">
-               <p class="name"><strong>Cadox8 (Iván)</strong></p>
+               <p class="name">Cadox8 (Iván)</p>
                <p>Cadox8 is one of the lead developers of AthoneDevs.</p>
                <div class="tags are-medium center">
                    <span class="tag is-danger">Java</span>
                    <span class="tag is-info">Front-End</span>
-                   <span class="tag is-dark">Back-End</span>
+                   <span class="tag is-success">Back-End</span>
                </div>
-               <small><a target="_blank" href="https://cadox8.github.io">Website</a><a target="_blank" href="https://twitter.com/cadox8"> Twitter</a></small>
+               <small><a target="_blank" class="has-text-warning" href="https://cadox8.github.io">Website</a><a target="_blank" class="has-text-warning" href="https://twitter.com/cadox8"> Twitter</a></small>
            </div>
            <div class="column is-5 centered">
-               <p class="name"><strong>Wikijito7</strong></p>
+               <p class="name">Wikijito7</p>
                <p>Wikijito7 is one of the lead developers of AthoneDevs.</p>
                <span class="tag is-danger are-medium center">Java</span><br><br>
-               <small><a target="_blank" href="https://twitter.com/WokisHere"> Twitter</a></small>
+               <small><a target="_blank" class="has-text-warning" href="https://twitter.com/WokisHere"> Twitter</a></small>
            </div>
        </div>
      </div>
    </section>
 
-
    <!-- Footer -->
-   <footer class="footer">
+   <footer class="footer has-background-light">
      <div class="container">
        <div class="content has-text-centered">
          <p>
            <strong>AthoneDevs</strong> website developed by <strong>The AthoneDevs Team</strong> with
            <span class="icon"><i class="fas fa-heart" style="color: purple;"></i></span>.<br>
-           Copyright &copy; 2018 AthoneDevs.
-         </p>
+             Copyright &copy; <span id="year"></span> AthoneDevs.
+         </span>
        </div>
      </div>
    </footer>
+
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 </body>
 </html>
